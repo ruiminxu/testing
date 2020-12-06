@@ -1,0 +1,14 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.resume{
+    text-align: center;
+    background-color: black;
+}
+
+.resume img{
+    margin-top: 10px;
+    border-radius: 2%;
+}

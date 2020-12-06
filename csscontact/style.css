@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact-form{
+    background-color: black;
+    height: 90vh;
+    text-align: center;
+}
+
+.contact-form h1{
+    color: white;
+    padding-top: 15%;
+    font-size: 200px;
+}
+
+.contact-form p{
+    color: white;
+    font-size: 65px;
+}

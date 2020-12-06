@@ -1,0 +1,194 @@
+:root{
+    --fs-h1:4.5rem;
+}
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.body{
+    max-width: 1452;
+}
+
+.navbar{
+    
+    border-bottom: 5px solid white;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    color: white;
+    font-size: 5rem;
+    margin-left: 1rem;
+}
+
+
+
+.nav-bar-links ul{
+    display:flex;
+    margin-top: 1rem;
+    list-style: none;
+    
+}
+
+.nav-bar-links ul a{
+    text-decoration: none;
+    color: white;
+    margin: 1rem;
+    font-size: 3rem;
+}
+
+.landing-page{
+    display: flex;
+    background-color: blue;
+    
+    align-items: center;
+    margin: auto;
+}
+
+
+.introduction{
+    flex:1;
+    
+}
+.introduction h1{
+    font-size: 80px;
+    margin: 2rem;
+    color:white;
+}
+
+
+
+.cta{
+    margin-left: 200px;
+    margin-right: 875px;
+    
+    
+}
+
+.btn{
+    
+    border: white;
+}
+
+
+
+.btn a{
+    font-size: 1.7rem;
+    text-decoration: none;
+    color: black;
+   
+}
+
+@media screen and (max-width: 768px)   /*Standard px for tablet*/
+{
+    .body{
+        max-width: 768px;
+    }
+
+    .landing-page{
+        background-color: red;
+    }
+}
+
+
+
+
+@media screen and (max-width: 414px)
+{
+    .body{
+        background-color: black;
+        max-height: 890px;
+        height: 890px;
+    }
+    
+    .logo{
+        cursor: pointer;
+        margin:0;
+        padding: 1.2rem;
+        position: static;
+        font-size: 1.5rem;
+       
+    }
+
+    .nav-bar-links ul{
+        display: none;
+    }
+
+    .landing-page
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%; 
+        margin: 0 auto;
+        background-color: black;
+        
+    }
+
+    .introduction{
+        
+        
+        width: 99%;
+        margin-top: 15em;
+        flex: 1;
+    }
+
+    .introduction h1
+    {
+        
+        text-align: center;
+        margin: 0;
+        margin-bottom: 1rem;
+        
+        padding: 0.5rem;
+        
+        font-size: 2.5rem;
+        
+    }
+
+    .cta{
+        text-align: center;
+        margin: 0;
+        
+        
+    }
+
+    .cta a{
+        font-size: 1.2rem;
+    }
+
+    .btn{
+        padding: 0.5rem;
+        border-radius: 40%;
+       
+    }
+
+    .introduction-me{
+        border: 2px solid black;
+        text-align: center;
+        width: 99%;
+        flex: 1;
+       
+        padding: 2.5rem;
+    }
+
+    .me{
+        min-width: 55%;
+        width: 80%;
+    
+    }
+
+
+}
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.code{
+    background-color: black;
+    height: 89.5vh;
+    text-align: center;
+}
+
+.code h1{
+    padding-top: 5rem;
+    color: white;
+    font-size: 60px;
+}
