@@ -132,9 +132,9 @@
 
     .introduction{
         
-        
+        border: 2px solid red;
         width: 99%;
-        margin-top: 15em;
+        margin-top: 10em;
         flex: 1;
     }
 
@@ -154,8 +154,6 @@
     .cta{
         text-align: center;
         margin: 0;
-        
-        
     }
 
     .cta a{
@@ -169,7 +167,7 @@
     }
 
     .introduction-me{
-        border: 2px solid black;
+    
         text-align: center;
         width: 99%;
         flex: 1;
